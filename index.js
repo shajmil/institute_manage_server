@@ -8,7 +8,7 @@ const multer = require("multer")
 app.use(express.json())
 const bcrypt = require("bcryptjs")
 app.use(cors({
-    origin:'http://localhost:4200'
+    origin:['http://localhost:4200',"https://institute-manage.onrender.com"]
     
     }))
     // app.use(function(req, res, next) {
